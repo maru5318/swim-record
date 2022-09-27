@@ -20,7 +20,7 @@ services:
         volumes:
             - ./:/home/user/app
         ports:
-            - '${PORT:-8080}:${PORT:-8080}'
+            - '${PORT:-8000}:${PORT:-8000}'
     db:
         image: mysql:8.0
         restart: always
